@@ -1,0 +1,95 @@
+===Vim super Cheat Sheet===
+https://www.fprintf.net/vimCheatSheet.html
+
+
+___________________________________________________
+===Splits===
+:vsp <filename> --> Open new vertical split 
+:sp <filename> --> Open new horizontal split
+
+<Ctrl-w> + v --> Split Verticaly
+<Ctrl-w> + s --> Split Horizontaly
+
+
+--Navigate betwen splits--
+<Ctrl-h> --> Left
+<Ctrl-j> --> Down
+<Ctrl-k> --> Up
+<Ctrl-l> --> Right
+--Move with arrows----
+<Ctrl-w> + (arrowkeys)
+<Ctrl-w> + w --> jump to next split 
+
+___________________________________________________
+===Resize split Window===
+:vertical resize +5/-5
+:res +5/-5 
+--or replace -/+ with the size you want
+
+--<Ctrl-w>--Comands--
+ = --> equal dimensions for all splits
+ +/- --> horisontal resize incremental
+ >/< --> Vertical resize incremental
+ -- Add <number after to increase size with number
+ _ --> Max height
+ | --> Max Width
+
+
+___________________________________________________
+===NERDTREE====
+:NERDTree --> Opens the file tree (is case sensetiv)
+<s> --> open in new v split
+<gs> --> preview split
+<i> --> open in new split
+<gi> --> Preview split
+<Enter> --> Open in latest activ split
+
+_______________
+===Behavur=====
+<u> --> undo
+<Ctrl-r> redo
+:set nu --> turn on line numbers
+:set nonu --> turn off line numbers
+<(number).> --> Repeat last action (numberof times)
+
+
+___________________________________________________
+===Editing in insert mode===
+<Ctrl-w> --> delete one word back
+
+
+===Deleting and insert===
+<X> --> Delete before cursor
+<x> --> Delete after cursor
+<d-d> --> delete line 
+<x> --> delete current space
+<o> --> Create new line under current and insert
+<O> --> Create new line over current and insert
+<Shift-a> --> append at end of line
+<a> --> append
+<I> --> insert att start of line
+<Shift-r> --> replace
+___________________________________________________
+===navigation and search===
+<w> --> jump to next word
+<e> --> jump to end of next word
+<b> --> jump back to nex word
+
+
+
+<Ctrl-d/f> --> tab down
+<Ctrl-u/b> --> tab up
+
+<G> --> Go to botom
+<gg> --> Go to top
+<(number)-gg/G> --> Go to line nube
+
+___________________________________________________
+===Open files and stuff===
+:ls --> Show files in buffer
+:b(number of buffer) --> Open file in buffer
+:b(filename) --> Open file in buffer 
+:n --> Next file in buffer
+:p --> Previus file in buffer
+
+
